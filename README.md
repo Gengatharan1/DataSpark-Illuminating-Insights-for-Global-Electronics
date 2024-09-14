@@ -5,48 +5,40 @@
 - [DataSpark: Illuminating Insights for Global Electronics](#dataspark-illuminating-insights-for-global-electronics)
   - [Table of Contents](#table-of-contents)
   - [Description](#description)
-    - [Problem Statement:](#problem-statement)
-    - [Business Use Cases:](#business-use-cases)
-    - [Tools Used:](#tools-used)
-    - [Data Sources:](#data-sources)
-    - [Approach:](#approach)
+    - [Problem Statement](#problem-statement)
+    - [Business Use Cases](#business-use-cases)
+    - [Data Sources](#data-sources)
+  - [Setup](#setup)
+    - [Softwares Needed](#softwares-needed)
+  - [Workflow](#workflow)
+    - [Approach](#approach)
       - [Data Cleaning and Preparation](#data-cleaning-and-preparation)
       - [Load Data](#load-data)
       - [Power BI Visualization](#power-bi-visualization)
       - [Develop SQL and Dax Queries](#develop-sql-and-dax-queries)
-    - [Analysis Steps:](#analysis-steps)
+    - [Analysis Steps](#analysis-steps)
       - [Customer Analysis](#customer-analysis)
       - [Sales Analysis](#sales-analysis)
       - [Product Analysis](#product-analysis)
       - [Store Analysis](#store-analysis)
-    - [Results/Finding:](#resultsfinding)
+    - [Report Summary](#report-summary)
   - [Power BI Reports](#power-bi-reports)
   - [Contact](#contact)
 
 
 ## Description
 
-### Problem Statement:
+### Problem Statement
 
 As part of Global Electronics' data analytics team, the goal is to conduct a comprehensive Exploratory Data Analysis (EDA) to uncover valuable insights from the company’s data. The goal is to provide actionable recommendations that can enhance customer satisfaction, optimize operations, and drive overall business growth.
 Global Electronics, a leading retailer of consumer electronics, has provided you with several datasets containing information about their customers, products, sales, stores, and currency exchange rates. The company seeks to leverage this data to better understand their business and identify areas for improvement.
 
-### Business Use Cases:
+### Business Use Cases
 
 By analyzing Global Electronics' customer, product, sales, and store data, one can aim to identify key insights that will enhance marketing strategies, optimize inventory management, and improve sales forecasting. This will help tailor marketing campaigns, develop better products, plan effective promotions, and decide on store expansions and optimizations. Additionally, understanding the impact of currency exchange rates on sales will allow for better international pricing strategies. Overall, these insights will help Global Electronics increase customer satisfaction and drive business growth.
 
 
-### Tools Used:
-
-- Jupyter Notebook and visualstudio code - IDE
-- Python - Programming language
-- Pandas - Data cleaning and Preparation
-- Matplotlib, Seaborn & Plotly - Exploratory data analysis (EDA)
-- PostgreSQL, Sql Alchemy Database - To store and retrieve cleaned data 
-- Power BI - Visualization
-
-
-### Data Sources:
+### Data Sources
 
 The following dataset of global-electronics-retailers, this data contains sales information from 1/1/2016 to 2/20/2021.
 
@@ -57,7 +49,19 @@ The following dataset of global-electronics-retailers, this data contains sales 
 5. Currency exchange rates data (exchangerates.csv): Contains historical exchange rates between different currencies, crucial for analyzing sales and financial data in a global context.
 
 
-### Approach:
+## Setup
+### Softwares Needed
+
+- Jupyter Notebook and VisualStudio Code - IDE
+- Python - Programming Language
+- Pandas - Data cleaning and Preparation
+- Matplotlib, Seaborn & Plotly - Exploratory Data Analysis (EDA)
+- PostgreSQL, Sql Alchemy Database - To store and retrieve cleaned data 
+- Power BI - Visualization
+
+
+## Workflow
+### Approach
 
 #### Data Cleaning and Preparation
 
@@ -65,21 +69,20 @@ Checking for missing values and handle them appropriately.
 Converting data types where necessary (e.g., dates, numerical values).
 Merging datasets where necessary for analysis (e.g., linking sales data with product and customer data).
 
-
 #### Load Data
 
 Inserting the preprocessed data into an SQL database by creating relevant tables for each data source.
 
 #### Power BI Visualization
 
- Connecting SQL to Power BI/Tableau, import the data, and create interactive dashboards.
+ Connecting SQL to Power BI/Tableau, import the data, and create interactive dashboards by applying star schema using data modeling.
  
 #### Develop SQL and Dax Queries
 
-Formulating and executing SQL and Dax queries to extract key insights from the data.
+Formulating and executing SQL and DAX queries to extract key insights from the data.
 
 
-### Analysis Steps:
+### Analysis Steps
 
 #### Customer Analysis
 
@@ -104,7 +107,7 @@ Store Performance: Evaluate store performance based on sales, size (square meter
 Geographical Analysis: Analyze sales by store location to identify high-performing regions.
 
 
-### Results/Finding:
+### Report Summary
 
 The analysis results are summarized as follows
 
