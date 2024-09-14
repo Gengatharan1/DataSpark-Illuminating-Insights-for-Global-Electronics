@@ -48,7 +48,7 @@ By analyzing Global Electronics' customer, product, sales, and store data, one c
 
 ### Data Sources:
 
-The following dataset about global-electronics-retailers, this data contains sales information from 1/1/2016 to 2/20/2021.
+The following dataset of global-electronics-retailers, this data contains sales information from 1/1/2016 to 2/20/2021.
 
 1. Customer data (customers.csv): Contains information about customers such gender, D.O.B, and demographics, used for analyzing customer behavior and segmentation.
 2. Sales data (sales.csv): Includes records of transactions, such as number of sales, product ID, it's quantities, order date, delivery date, store ID, and currency essential for understanding sales patterns and performance.
