@@ -13,7 +13,7 @@
   - [Workflow](#workflow)
     - [Approach](#approach)
       - [Data Cleaning and Preparation](#data-cleaning-and-preparation)
-      - [Load Data](#load-data)
+      - [Data Management](#data-management)
       - [Power BI Visualization](#power-bi-visualization)
       - [Develop SQL and Dax Queries](#develop-sql-and-dax-queries)
     - [Analysis Steps](#analysis-steps)
@@ -69,13 +69,13 @@ Checking for missing values and handle them appropriately.
 Converting data types where necessary (e.g., dates, numerical values).
 Merging datasets where necessary for analysis (e.g., linking sales data with product and customer data).
 
-#### Load Data
+#### Data Management
 
 Inserting the preprocessed data into an SQL database by creating relevant tables for each data source.
 
 #### Power BI Visualization
 
- Connecting SQL to Power BI/Tableau, import the data, and create interactive dashboards by applying star schema using data modeling.
+Connecting SQL to Power BI/Tableau, import the data, and create interactive dashboards by applying star schema using data modeling.
  
 #### Develop SQL and Dax Queries
 
