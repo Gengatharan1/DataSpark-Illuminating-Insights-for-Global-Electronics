@@ -1,63 +1,44 @@
-# 🚀 **DataSpark: Illuminating Insights for Global Electronics**
 
-## **Table of Contents**
-- [🚀 **DataSpark: Illuminating Insights for Global Electronics**](#-dataspark-illuminating-insights-for-global-electronics)
-  - [**Table of Contents**](#table-of-contents)
-  - [🌍 **Domain**](#-domain)
-  - [🛠️ **Problem Statement**](#️-problem-statement)
-  - [💼 **Business Use Cases**](#-business-use-cases)
-  - [📂 **Data Sources**](#-data-sources)
-  - [📚 **Skills Acquired**](#-skills-acquired)
-  - [🛠️ **Technologies Used**](#️-technologies-used)
-  - [⚙️ **Approach**](#️-approach)
-    - [1️⃣ **Data Cleaning and Preparation**](#1️⃣-data-cleaning-and-preparation)
-    - [2️⃣ **Data Management**](#2️⃣-data-management)
-    - [3️⃣ **Develop SQL and DAX Queries**](#3️⃣-develop-sql-and-dax-queries)
-    - [4️⃣ **Power BI Visualization**](#4️⃣-power-bi-visualization)
-  - [📝 **Analysis Steps**](#-analysis-steps)
-    - [🧑‍🤝‍🧑 **Customer Analysis**](#-customer-analysis)
-    - [💵 **Sales Analysis**](#-sales-analysis)
-    - [📦 **Product Analysis**](#-product-analysis)
-    - [🏬 **Store Analysis**](#-store-analysis)
-  - [🏆 **Report Summary**](#-report-summary)
-  - [📊 **PowerBI Reports**](#-powerbi-reports)
+# DataSpark: Illuminating Insights for Global Electronics
+
+## Table of Contents
+- [DataSpark: Illuminating Insights for Global Electronics](#dataspark-illuminating-insights-for-global-electronics)
+  - [Table of Contents](#table-of-contents)
+  - [Description](#description)
+    - [Problem Statement](#problem-statement)
+    - [Business Use Cases](#business-use-cases)
+    - [Data Sources](#data-sources)
+  - [Setup](#setup)
+    - [Softwares Needed](#softwares-needed)
+  - [Workflow](#workflow)
+    - [Approach](#approach)
+      - [Data Cleaning and Preparation](#data-cleaning-and-preparation)
+      - [Data Management](#data-management)
+      - [Power BI Visualization](#power-bi-visualization)
+      - [Develop SQL and Dax Queries](#develop-sql-and-dax-queries)
+    - [Analysis Steps](#analysis-steps)
+      - [Customer Analysis](#customer-analysis)
+      - [Sales Analysis](#sales-analysis)
+      - [Product Analysis](#product-analysis)
+      - [Store Analysis](#store-analysis)
+    - [Report Summary](#report-summary)
+  - [Power BI Reports](#power-bi-reports)
+  - [Contact](#contact)
 
 
----
+## Description
 
-## 🌍 **Domain**  
-**Retail Analytics in the Electronics Industry**
+### Problem Statement
 
----
+As part of Global Electronics' data analytics team, the goal is to conduct a comprehensive Exploratory Data Analysis (EDA) to uncover valuable insights from the company’s data. The goal is to provide actionable recommendations that can enhance customer satisfaction, optimize operations, and drive overall business growth.
+Global Electronics, a leading retailer of consumer electronics, has provided you with several datasets containing information about their customers, products, sales, stores, and currency exchange rates. The company seeks to leverage this data to better understand their business and identify areas for improvement.
 
-## 🛠️ **Problem Statement**  
-Global Electronics, a leading retailer of consumer electronics, provided datasets containing:  
-- 👥 **Customer Data**  
-- 📦 **Product Information**  
-- 💰 **Sales Data**  
-- 🏬 **Store Details**  
-- 💱 **Currency Exchange Rates**  
+### Business Use Cases
 
-This project focuses on analyzing these datasets to uncover insights that:  
-1️⃣ Enhance customer satisfaction.  
-2️⃣ Optimize operations.  
-3️⃣ Drive business growth.  
+By analyzing Global Electronics' customer, product, sales, and store data, one can aim to identify key insights that will enhance marketing strategies, optimize inventory management, and improve sales forecasting. This will help tailor marketing campaigns, develop better products, plan effective promotions, and decide on store expansions and optimizations. Additionally, understanding the impact of currency exchange rates on sales will allow for better international pricing strategies. Overall, these insights will help Global Electronics increase customer satisfaction and drive business growth.
 
----
 
-## 💼 **Business Use Cases**  
-By analyzing customer, product, sales, and store data, the project addresses:  
-- 🎯 **Marketing Strategies**: Tailor campaigns based on customer preferences.  
-- 📦 **Inventory Optimization**: Efficient stock management.  
-- 📈 **Sales Forecasting**: Predict trends and seasonality.  
-- 🛠️ **Product Development**: Develop better products and promotions.  
-- 🏬 **Store Management**: Plan store expansions and operational efficiency.  
-
-Understanding the impact of currency exchange rates ensures better international pricing strategies, enhancing customer satisfaction and profitability.
-
----
-
-## 📂 **Data Sources**
+### Data Sources
 
 The following dataset of global-electronics-retailers, this data contains sales information from 1/1/2016 to 2/20/2021.
 
@@ -67,70 +48,66 @@ The following dataset of global-electronics-retailers, this data contains sales 
 4. Stores data (stores.csv): Provides information on store locations, IDs, and attributes, useful for examining geographic sales performance and store-related analysis.
 5. Currency exchange rates data (exchangerates.csv): Contains historical exchange rates between different currencies, crucial for analyzing sales and financial data in a global context.
 
----
 
-## 📚 **Skills Acquired**
-- 🧹 **Data Cleaning and Preprocessing**  
-- 📊 **Exploratory Data Analysis (EDA)**  
-- 🛢️ **Data Management using SQL**  
-- 📈 **Data Visualization using PowerBI**  
+## Setup
+### Softwares Needed
 
----
+- Jupyter Notebook and VisualStudio Code - IDE
+- Python - Programming Language
+- Pandas - Data cleaning and Preparation
+- Matplotlib, Seaborn & Plotly - Exploratory Data Analysis (EDA)
+- PostgreSQL, Sql Alchemy Database - To store and retrieve cleaned data 
+- Power BI - Visualization
 
-## 🛠️ **Technologies Used**  
-- 🐍 **Python**  
-- 🛢️ **SQL**  
-- 📊 **Power BI/Tableau**
 
----
+## Workflow
+### Approach
 
-## ⚙️ **Approach**
-
-### 1️⃣ **Data Cleaning and Preparation**
+#### Data Cleaning and Preparation
 
 Checking for missing values and handle them appropriately.
 Converting data types where necessary (e.g., dates, numerical values).
 Merging datasets where necessary for analysis (e.g., linking sales data with product and customer data).
 
-### 2️⃣ **Data Management**
+#### Data Management
 
 Inserting the preprocessed data into an SQL database by creating relevant tables for each data source.
 
-### 3️⃣ **Develop SQL and DAX Queries**
+#### Power BI Visualization
+
+Connecting SQL to Power BI/Tableau, import the data, and create interactive dashboards by applying star schema using data modeling.
+ 
+#### Develop SQL and Dax Queries
 
 Formulating and executing SQL and DAX queries to extract key insights from the data.
 
-### 4️⃣ **Power BI Visualization**
 
-Connecting SQL to Power BI/Tableau, import the data, and create interactive dashboards by implementing star schema using data modeling.
+### Analysis Steps
 
----
+#### Customer Analysis
 
-## 📝 **Analysis Steps**  
+Demographic Distribution: Analyze the distribution of customers based on gender, age (calculated from birthday), location (city, state, country, continent).
+Purchase Patterns: Identify purchasing patterns such as average order value, frequency of purchases, and preferred products.
+Segmentation: Segment customers based on demographics and purchasing behavior to identify key customer groups.
 
-### 🧑‍🤝‍🧑 **Customer Analysis**  
-- 🗺️ **Demographics**: Analyze by gender, age, and location.  
-- 🛒 **Purchase Patterns**: Average order values, frequency, and preferences.  
-- 🏷️ **Segmentation**: Identify key customer groups by behavior.  
+#### Sales Analysis
 
-### 💵 **Sales Analysis**  
-- 📈 **Performance Trends**: Overall sales trends and seasonality.  
-- 🏆 **Top Products**: Bestsellers by quantity and revenue.  
-- 🏬 **Store Analysis**: Performance metrics by location.  
-- 💱 **Currency Impact**: Assess sales affected by exchange rates.  
+Overall Sales Performance: Analyze total sales over time, identifying trends and seasonality
+Sales by Product: Evaluate which products are the top performers in terms of quantity sold and revenue generated.
+Sales by Store: Assess the performance of different stores based on sales data.
+Sales by Currency: Examine how different currencies impact sales figures, considering exchange rates.
 
-### 📦 **Product Analysis**  
-- ⭐ **Popularity**: Most and least popular products.  
-- 💰 **Profitability**: Profit margins by comparing costs and prices.  
-- 🗂️ **Category Insights**: Performance by category and subcategory.  
+#### Product Analysis
+Product Popularity: Identify the most and least popular products based on sales data.
+Profitability Analysis: Calculate profit margins for products by comparing unit cost and unit price.
+Category Analysis: Analyze sales performance across different product categories and subcategories.
 
-### 🏬 **Store Analysis**  
-- 📊 **Performance Metrics**: Sales, size, and operational data.  
-- 🌎 **Geographical Insights**: High-performing regions.  
+#### Store Analysis
+Store Performance: Evaluate store performance based on sales, size (square meters), and operational data (open date).
+Geographical Analysis: Analyze sales by store location to identify high-performing regions.
 
----
 
-## 🏆 **Report Summary**
+### Report Summary
 
 The analysis results are summarized as follows
 
@@ -162,11 +139,13 @@ The analysis results are summarized as follows
 
 14. Time analysis:  From 2016 to 2019, the sales revenue exhibited a consistent upward trend. During this period, the revenue increased annually, reflecting positive business performance and successful market strategies. In 2020, there was a notable decline in sales revenue. The decrease could be associated with  economic downturns, or supply chain disruptions due to the Covid-19 pandemic. For the year 2021, revenue data is only available up to February. However, the early data for 2021 suggests that the revenue challenges have continued into the new year. Further, it can be infered from all the years that the lowest performing month is April with the top 3 being December, January, and February.
 
----
-
-## 📊 **PowerBI Reports**
+## Power BI Reports
 
 [Slides](https://docs.google.com/presentation/d/14A1nbxD9RQsgFSPYF9BU99OkN-wYQZVCGuNznuGPD4g)
+
+
+## Contact
+[LinkedIn](https://www.linkedin.com/in/gengatharan007/)
 
 ---
 ^ [Back to table of contents](#table-of-contents)
